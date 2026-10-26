@@ -4,9 +4,9 @@
 <head>
   <meta charset="utf-8">
   <meta content="width=device-width, initial-scale=1.0" name="viewport">
-  <title>Property Plus</title>
-  <meta name="description" content="">
-  <meta name="keywords" content="">
+  <title>MediCare Clinic - Family Healthcare You Can Trust</title>
+  <meta name="description" content="MediCare Clinic offers family care, laboratory tests, maternal health and vaccinations from experienced doctors. Book your appointment today.">
+  <meta name="keywords" content="clinic, family doctor, laboratory, maternal care, vaccination">
 
   <!-- Favicons -->
   <link href="assets/img/favicon.png" rel="icon">
@@ -28,7 +28,7 @@
   <link href="assets/css/main.css" rel="stylesheet">
 
   <!-- =======================================================
-  * Template Name: EstateAgency
+  * Template Name: EstateAgency (adapted for a medical clinic)
   * Template URL: https://bootstrapmade.com/real-estate-agency-bootstrap-template/
   * Updated: Apr 08 2026 with Bootstrap v5.3.8
   * Author: BootstrapMade.com
@@ -39,12 +39,10 @@
 <body class="index-page">
 
   <header id="header" class="header d-flex align-items-center fixed-top">
-    <div class="container-fluid container-xl position-relative d-flex align-items-center justify-content-between">
+    <div class="container-fluid container-xl position-relative d-flex align-items-center justify-content-between bg-success-subtle">
 
       <a href="index.html" class="logo d-flex align-items-center">
-        <!-- Uncomment the line below if you also wish to use an image logo -->
-        <!-- <img src="assets/img/logo.png" alt=""> -->
-        <h1 class="sitename">Property<span>Plus</span></h1>
+        <h1 class="sitename bg-success">Medi<span>Care</span></h1>
       </a>
 
       <nav id="navmenu" class="navmenu">
@@ -52,23 +50,14 @@
           <li><a href="index.html" class="active">Home</a></li>
           <li><a href="about.html">About</a></li>
           <li><a href="services.html">Services</a></li>
-          <li><a href="properties.html">Properties</a></li>
-          <li><a href="agents.html">Agents</a></li>
-          <li class="dropdown"><a href="#"><span>Dropdown</span> <i class="bi bi-chevron-down toggle-dropdown"></i></a>
+          <li><a href="doctors.html">Doctors</a></li>
+          <li class="dropdown"><a href="#"><span>Departments</span> <i class="bi bi-chevron-down toggle-dropdown"></i></a>
             <ul>
-              <li><a href="#">Dropdown 1</a></li>
-              <li class="dropdown"><a href="#"><span>Deep Dropdown</span> <i class="bi bi-chevron-down toggle-dropdown"></i></a>
-                <ul>
-                  <li><a href="#">Deep Dropdown 1</a></li>
-                  <li><a href="#">Deep Dropdown 2</a></li>
-                  <li><a href="#">Deep Dropdown 3</a></li>
-                  <li><a href="#">Deep Dropdown 4</a></li>
-                  <li><a href="#">Deep Dropdown 5</a></li>
-                </ul>
-              </li>
-              <li><a href="#">Dropdown 2</a></li>
-              <li><a href="#">Dropdown 3</a></li>
-              <li><a href="#">Dropdown 4</a></li>
+              <li><a href="#">General Medicine</a></li>
+              <li><a href="#">Paediatrics</a></li>
+              <li><a href="#">Maternal Health</a></li>
+              <li><a href="#">Laboratory</a></li>
+              <li><a href="#">Dental</a></li>
             </ul>
           </li>
           <li><a href="contact.html">Contact</a></li>
@@ -87,34 +76,34 @@
       <div id="hero-carousel" class="carousel slide" data-bs-ride="carousel" data-bs-interval="5000">
 
         <div class="carousel-item active">
-          <img src="assets/img/image.png" alt="">
+          <img src="assets/welcome.png" alt="Welcome to MediCare">
           <div class="carousel-container">
             <div>
-              <p>Doral, Florida</p>
-              <h2><span>204</span> Olive Road Two</h2>
-              <a href="property-single.html" class="btn-get-started">rent | $ 12.000</a>
+              <p class="fw-bold">Welcome to MediCare</p>
+              <h2><span>Caring</span> for Your Whole Family</h2>
+              <a href="contact.html" class="btn-get-started">Book an appointment</a>
             </div>
           </div>
         </div><!-- End Carousel Item -->
 
         <div class="carousel-item">
-          <img src="assets/img/hero-carousel/hero-carousel-2.jpg" alt="">
+          <img src="assets/lab.png" alt="On-site Laboratory">
           <div class="carousel-container">
             <div>
-              <p>Doral, Florida</p>
-              <h2><span>247</span> Venda Road Five</h2>
-              <a href="property-single.html" class="btn-get-started">sale | $ 356.000</a>
+              <p class="fw-bold">On-site Laboratory</p>
+              <h2><span>Same-day</span> Test Results</h2>
+              <a href="services.html" class="btn-get-started">Our services</a>
             </div>
           </div>
         </div><!-- End Carousel Item -->
 
         <div class="carousel-item">
-          <img src="assets/img/hero-carousel/hero-carousel-3.jpg" alt="">
+          <img src="assets/motherandchild.png" alt="Mother and Child">
           <div class="carousel-container">
             <div>
-              <p>Doral, Florida</p>
-              <h2><span>247</span> Vitra Road three</h2>
-              <a href="property-single.html" class="btn-get-started">rent | $ 3.000</a>
+              <p class="fw-bold">Mother and Child</p>
+              <h2><span>Expert</span> Maternal Care</h2>
+              <a href="doctors.html" class="btn-get-started">Meet our doctors</a>
             </div>
           </div>
         </div><!-- End Carousel Item -->
@@ -137,87 +126,84 @@
     <section id="services" class="services section">
 
       <!-- Section Title -->
-      <div class="container section-title" data-aos="fade-up">
-        <h2>Our Services</h2>
-        <p>Necessitatibus eius consequatur ex aliquid fuga eum quidem sint consectetur velit</p>
+      <div class="container section-title " data-aos="fade-up">
+        <h2 class="bg-success">Our Services</h2>
+        <p class="fw-bold">Complete healthcare for every age, from routine check-ups to specialist care</p>
       </div><!-- End Section Title -->
 
-      <div class="container">
+      <div class="container bg-primary-subtle">
 
         <div class="row gy-4">
 
           <div class="col-lg-4 col-md-6" data-aos="fade-up" data-aos-delay="100">
-            <div class="service-item  position-relative">
+            <div class="service-item position-relative">
               <div class="icon">
-                <i class="bi bi-activity"></i>
+                <i class="bi bi-heart-pulse"></i>
               </div>
               <a href="service-details.html" class="stretched-link">
-                <h3>Nesciunt Mete</h3>
+                <h3>General Care</h3>
               </a>
-              <p>Provident nihil minus qui consequatur non omnis maiores. Eos accusantium minus dolores iure perferendis tempore et consequatur.</p>
+              <p>Check-ups, fevers, infections and long-term conditions such as diabetes and high blood pressure.</p>
             </div>
           </div><!-- End Service Item -->
 
           <div class="col-lg-4 col-md-6" data-aos="fade-up" data-aos-delay="200">
             <div class="service-item position-relative">
               <div class="icon">
-                <i class="bi bi-broadcast"></i>
+                <i class="bi bi-balloon-heart"></i>
               </div>
               <a href="service-details.html" class="stretched-link">
-                <h3>Eosle Commodi</h3>
+                <h3>Child Health</h3>
               </a>
-              <p>Ut autem aut autem non a. Sint sint sit facilis nam iusto sint. Libero corrupti neque eum hic non ut nesciunt dolorem.</p>
+              <p>Growth checks, childhood vaccines and gentle care for common childhood illnesses.</p>
             </div>
           </div><!-- End Service Item -->
 
           <div class="col-lg-4 col-md-6" data-aos="fade-up" data-aos-delay="300">
             <div class="service-item position-relative">
               <div class="icon">
-                <i class="bi bi-easel"></i>
+                <i class="bi bi-droplet-half"></i>
               </div>
               <a href="service-details.html" class="stretched-link">
-                <h3>Ledo Markt</h3>
+                <h3>Laboratory</h3>
               </a>
-              <p>Ut excepturi voluptatem nisi sed. Quidem fuga consequatur. Minus ea aut. Vel qui id voluptas adipisci eos earum corrupti.</p>
+              <p>Blood, urine and malaria tests processed in our own lab, with most results the same day.</p>
             </div>
           </div><!-- End Service Item -->
 
           <div class="col-lg-4 col-md-6" data-aos="fade-up" data-aos-delay="400">
             <div class="service-item position-relative">
               <div class="icon">
-                <i class="bi bi-bounding-box-circles"></i>
+                <i class="bi bi-person-hearts"></i>
               </div>
               <a href="service-details.html" class="stretched-link">
-                <h3>Asperiores Commodit</h3>
+                <h3>Maternal Care</h3>
               </a>
-              <p>Non et temporibus minus omnis sed dolor esse consequatur. Cupiditate sed error ea fuga sit provident adipisci neque.</p>
-              <a href="service-details.html" class="stretched-link"></a>
+              <p>Antenatal visits, scans and postnatal support to keep mother and baby healthy.</p>
             </div>
           </div><!-- End Service Item -->
 
           <div class="col-lg-4 col-md-6" data-aos="fade-up" data-aos-delay="500">
             <div class="service-item position-relative">
               <div class="icon">
-                <i class="bi bi-calendar4-week"></i>
+                <i class="bi bi-shield-plus"></i>
               </div>
               <a href="service-details.html" class="stretched-link">
-                <h3>Velit Doloremque</h3>
+                <h3>Vaccination</h3>
               </a>
-              <p>Cumque et suscipit saepe. Est maiores autem enim facilis ut aut ipsam corporis aut. Sed animi at autem alias eius labore.</p>
-              <a href="service-details.html" class="stretched-link"></a>
+              <p>Routine and travel vaccines given by trained nurses, with records kept for you.</p>
             </div>
           </div><!-- End Service Item -->
 
           <div class="col-lg-4 col-md-6" data-aos="fade-up" data-aos-delay="600">
             <div class="service-item position-relative">
               <div class="icon">
-                <i class="bi bi-chat-square-text"></i>
+                <i class="bi bi-capsule"></i>
               </div>
               <a href="service-details.html" class="stretched-link">
-                <h3>Dolori Architecto</h3>
+                <h3>Pharmacy</h3>
               </a>
-              <p>Hic molestias ea quibusdam eos. Fugiat enim doloremque aut neque non et debitis iure. Corrupti recusandae ducimus enim.</p>
-              <a href="service-details.html" class="stretched-link"></a>
+              <p>Collect your prescription before you leave, with clear instructions on how to take it.</p>
             </div>
           </div><!-- End Service Item -->
 
@@ -227,80 +213,77 @@
 
     </section><!-- /Services Section -->
 
-    <!-- Agents Section -->
+    <!-- Doctors Section -->
     <section id="agents" class="agents section">
 
       <!-- Section Title -->
       <div class="container section-title" data-aos="fade-up">
-        <h2>Our Agents</h2>
-        <p>Necessitatibus eius consequatur ex aliquid fuga eum quidem sint consectetur velit</p>
+        <h2 class="bg-success">Our Doctors</h2>
+        <p class="fw-bold">Experienced specialists who take time to listen and explain</p>
       </div><!-- End Section Title -->
 
-      <div class="container">
+      <div class="container bg-primary-subtle">
 
         <div class="row gy-5">
 
           <div class="col-lg-4 col-md-6" data-aos="fade-up" data-aos-delay="100">
             <div class="member">
-              <div class="pic"><img src="assets/img/team/team-1.jpg" class="img-fluid" alt=""></div>
+              <div class="pic"><img src="assets/dramina.png" class="img-fluid" alt="Dr. Amina Otieno"></div>
               <div class="member-info">
-                <h4>Walter White</h4>
-                <span>Chief Executive Officer</span>
+                <h4>Dr. Amina Otieno</h4>
+                <span class="fw-bold">Family Medicine, Lead Physician</span>
                 <div class="social">
-                  <a href=""><i class="bi bi-twitter-x"></i></a>
-                  <a href=""><i class="bi bi-facebook"></i></a>
-                  <a href=""><i class="bi bi-instagram"></i></a>
-                  <a href=""><i class="bi bi-linkedin"></i></a>
+                  <a href="#" aria-label="Email Dr. Amina Otieno"><i class="bi bi-envelope"></i></a>
+                  <a href="#" aria-label="Call Dr. Amina Otieno"><i class="bi bi-telephone"></i></a>
+                  <a href="#" aria-label="Dr. Amina Otieno on LinkedIn"><i class="bi bi-linkedin"></i></a>
                 </div>
               </div>
             </div>
-          </div><!-- End Team Member -->
+          </div><!-- End Doctor -->
 
           <div class="col-lg-4 col-md-6" data-aos="fade-up" data-aos-delay="200">
             <div class="member">
-              <div class="pic"><img src="assets/img/team/team-2.jpg" class="img-fluid" alt=""></div>
+              <div class="pic"><img src="assets/drjames.png" class="img-fluid" alt="Dr. James Mwangi"></div>
               <div class="member-info">
-                <h4>Sarah Jhonson</h4>
-                <span>Rent Manager</span>
+                <h4>Dr. James Mwangi</h4>
+                <span class="fw-bold">Paediatrician</span>
                 <div class="social">
-                  <a href=""><i class="bi bi-twitter-x"></i></a>
-                  <a href=""><i class="bi bi-facebook"></i></a>
-                  <a href=""><i class="bi bi-instagram"></i></a>
-                  <a href=""><i class="bi bi-linkedin"></i></a>
+                  <a href="#" aria-label="Email Dr. James Mwangi"><i class="bi bi-envelope"></i></a>
+                  <a href="#" aria-label="Call Dr. James Mwangi"><i class="bi bi-telephone"></i></a>
+                  <a href="#" aria-label="Dr. James Mwangi on LinkedIn"><i class="bi bi-linkedin"></i></a>
                 </div>
               </div>
             </div>
-          </div><!-- End Team Member -->
+          </div><!-- End Doctor -->
 
           <div class="col-lg-4 col-md-6" data-aos="fade-up" data-aos-delay="300">
             <div class="member">
-              <div class="pic"><img src="assets/img/team/team-3.jpg" class="img-fluid" alt=""></div>
+              <div class="pic"><img src="assets/drgrace.png" class="img-fluid" alt="Dr. Grace Njeri"></div>
               <div class="member-info">
-                <h4>William Anderson</h4>
-                <span>Sale manager<br></span>
+                <h4>Dr. Grace Njeri</h4>
+                <span class="fw-bold">Obstetrician and Gynaecologist</span>
                 <div class="social">
-                  <a href=""><i class="bi bi-twitter-x"></i></a>
-                  <a href=""><i class="bi bi-facebook"></i></a>
-                  <a href=""><i class="bi bi-instagram"></i></a>
-                  <a href=""><i class="bi bi-linkedin"></i></a>
+                  <a href="#" aria-label="Email Dr. Grace Njeri"><i class="bi bi-envelope"></i></a>
+                  <a href="#" aria-label="Call Dr. Grace Njeri"><i class="bi bi-telephone"></i></a>
+                  <a href="#" aria-label="Dr. Grace Njeri on LinkedIn"><i class="bi bi-linkedin"></i></a>
                 </div>
               </div>
             </div>
-          </div><!-- End Team Member -->
+          </div><!-- End Doctor -->
 
         </div>
 
       </div>
 
-    </section><!-- /Agents Section -->
+    </section><!-- /Doctors Section -->
 
     <!-- Testimonials Section -->
     <section id="testimonials" class="testimonials section">
 
       <!-- Section Title -->
       <div class="container section-title" data-aos="fade-up">
-        <h2>Testimonials</h2>
-        <p>Necessitatibus eius consequatur ex aliquid fuga eum quidem sint consectetur velit</p>
+        <h2 class="bg-success">Patient Stories</h2>
+        <p class="fw-bold">What families say about their visits to MediCare</p>
       </div><!-- End Section Title -->
 
       <div class="container" data-aos="fade-up" data-aos-delay="100">
@@ -338,13 +321,13 @@
                 <div class="stars">
                   <i class="bi bi-star-fill"></i><i class="bi bi-star-fill"></i><i class="bi bi-star-fill"></i><i class="bi bi-star-fill"></i><i class="bi bi-star-fill"></i>
                 </div>
-                <p>
-                  Proin iaculis purus consequat sem cure digni ssim donec porttitora entum suscipit rhoncus. Accusantium quam, ultricies eget id, aliquam eget nibh et. Maecen aliquam, risus at semper.
+                <p class="fw-bold">
+                  The doctor listened to everything my son described and explained the treatment in simple words. We were in and out in under an hour.
                 </p>
                 <div class="profile mt-auto">
-                  <img src="assets/img/testimonials/testimonials-1.jpg" class="testimonial-img" alt="">
-                  <h3>Saul Goodman</h3>
-                  <h4>Ceo &amp; Founder</h4>
+                  <img src="assets/img/testimonials/testimonials-2.jpg" class="testimonial-img" alt="Mary Wanjiru">
+                  <h3>Mary Wanjiru</h3>
+                  <h4>Mother of two</h4>
                 </div>
               </div>
             </div><!-- End testimonial item -->
@@ -354,13 +337,13 @@
                 <div class="stars">
                   <i class="bi bi-star-fill"></i><i class="bi bi-star-fill"></i><i class="bi bi-star-fill"></i><i class="bi bi-star-fill"></i><i class="bi bi-star-fill"></i>
                 </div>
-                <p>
-                  Export tempor illum tamen malis malis eram quae irure esse labore quem cillum quid cillum eram malis quorum velit fore eram velit sunt aliqua noster fugiat irure amet legam anim culpa.
+                <p class="fw-bold">
+                  I got my blood results the same afternoon and my doctor walked me through them. No guessing and no long queues.
                 </p>
                 <div class="profile mt-auto">
-                  <img src="assets/img/testimonials/testimonials-2.jpg" class="testimonial-img" alt="">
-                  <h3>Sara Wilsson</h3>
-                  <h4>Designer</h4>
+                  <img src="assets/img/testimonials/testimonials-1.jpg" class="testimonial-img" alt="Peter Kamau">
+                  <h3>Peter Kamau</h3>
+                  <h4>Patient</h4>
                 </div>
               </div>
             </div><!-- End testimonial item -->
@@ -370,13 +353,13 @@
                 <div class="stars">
                   <i class="bi bi-star-fill"></i><i class="bi bi-star-fill"></i><i class="bi bi-star-fill"></i><i class="bi bi-star-fill"></i><i class="bi bi-star-fill"></i>
                 </div>
-                <p>
-                  Enim nisi quem export duis labore cillum quae magna enim sint quorum nulla quem veniam duis minim tempor labore quem eram duis noster aute amet eram fore quis sint minim.
+                <p class="fw-bold">
+                  My antenatal visits here were calm and well organised. The whole team made me feel safe throughout my pregnancy.
                 </p>
                 <div class="profile mt-auto">
-                  <img src="assets/img/testimonials/testimonials-3.jpg" class="testimonial-img" alt="">
-                  <h3>Jena Karlis</h3>
-                  <h4>Store Owner</h4>
+                  <img src="assets/img/testimonials/testimonials-3.jpg" class="testimonial-img" alt="Fatuma Hassan">
+                  <h3>Fatuma Hassan</h3>
+                  <h4>Expectant mother</h4>
                 </div>
               </div>
             </div><!-- End testimonial item -->
@@ -386,13 +369,13 @@
                 <div class="stars">
                   <i class="bi bi-star-fill"></i><i class="bi bi-star-fill"></i><i class="bi bi-star-fill"></i><i class="bi bi-star-fill"></i><i class="bi bi-star-fill"></i>
                 </div>
-                <p>
-                  Fugiat enim eram quae cillum dolore dolor amet nulla culpa multos export minim fugiat minim velit minim dolor enim duis veniam ipsum anim magna sunt elit fore quem dolore labore illum veniam.
+                <p class="fw-bold">
+                  Prices were explained before any test, and the pharmacy had my medicine ready. That clarity means a lot.
                 </p>
                 <div class="profile mt-auto">
-                  <img src="assets/img/testimonials/testimonials-4.jpg" class="testimonial-img" alt="">
-                  <h3>Matt Brandon</h3>
-                  <h4>Freelancer</h4>
+                  <img src="assets/img/testimonials/testimonials-4.jpg" class="testimonial-img" alt="David Ochieng">
+                  <h3>David Ochieng</h3>
+                  <h4>Patient</h4>
                 </div>
               </div>
             </div><!-- End testimonial item -->
@@ -402,13 +385,13 @@
                 <div class="stars">
                   <i class="bi bi-star-fill"></i><i class="bi bi-star-fill"></i><i class="bi bi-star-fill"></i><i class="bi bi-star-fill"></i><i class="bi bi-star-fill"></i>
                 </div>
-                <p>
-                  Quis quorum aliqua sint quem legam fore sunt eram irure aliqua veniam tempor noster veniam enim culpa labore duis sunt culpa nulla illum cillum fugiat legam esse veniam culpa fore nisi cillum quid.
+                <p class="fw-bold">
+                  The nurses are gentle with children. My daughter used to dread injections and now she waves at the staff.
                 </p>
                 <div class="profile mt-auto">
-                  <img src="assets/img/testimonials/testimonials-5.jpg" class="testimonial-img" alt="">
-                  <h3>John Larson</h3>
-                  <h4>Entrepreneur</h4>
+                  <img src="assets/img/testimonials/testimonials-5.jpg" class="testimonial-img" alt="John White">
+                  <h3>John White</h3>
+                  <h4>Parent</h4>
                 </div>
               </div>
             </div><!-- End testimonial item -->
@@ -425,14 +408,14 @@
 
   <footer id="footer" class="footer light-background">
 
-    <div class="container">
+    <div class="container bg-secondary-subtle">
       <div class="row gy-3">
         <div class="col-lg-3 col-md-6 d-flex">
           <i class="bi bi-geo-alt icon"></i>
           <div class="address">
             <h4>Address</h4>
-            <p>A108 Adam Street</p>
-            <p>New York, NY 535022</p>
+            <p>Health Avenue</p>
+            <p>Nairobi, Your Kenya</p>
             <p></p>
           </div>
 
@@ -443,8 +426,8 @@
           <div>
             <h4>Contact</h4>
             <p>
-              <strong>Phone:</strong> <span>+1 5589 55488 55</span><br>
-              <strong>Email:</strong> <span>info@example.com</span><br>
+              <strong>Phone:</strong> <span>+254 728 200 200</span><br>
+              <strong>Email:</strong> <span>medicare@gmail.com</span><br>
             </p>
           </div>
         </div>
@@ -454,8 +437,9 @@
           <div>
             <h4>Opening Hours</h4>
             <p>
-              <strong>Mon-Sat:</strong> <span>11AM - 23PM</span><br>
-              <strong>Sunday</strong>: <span>Closed</span>
+              <strong>Mon-Fri:</strong> <span>7AM - 8PM</span><br>
+              <strong>Saturday:</strong> <span>8AM - 4PM</span><br>
+              <strong>Sunday</strong>: <span>Emergencies only</span>
             </p>
           </div>
         </div>
@@ -474,7 +458,7 @@
     </div>
 
     <div class="container copyright text-center mt-4">
-      <p>© <span>Copyright</span> <strong class="px-1 sitename">EstateAgency</strong> <span>All Rights Reserved</span></p>
+      <p>© <span>Copyright</span> <strong class="px-1 sitename">MediCare Clinic</strong> <span>All Rights Reserved</span></p>
       <div class="credits">
         <!-- All the links in the footer should remain intact. -->
         <!-- You can delete the links only if you've purchased the pro version. -->
