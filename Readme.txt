@@ -1,2 +1,2 @@
-medicare-nderitu.netlify.app
-medicare-alpha-one.vercel.app
+medicare-kenya.netlify.app
+medicare-kenya.vercel.app
